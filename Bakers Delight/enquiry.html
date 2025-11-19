@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Enquiries - Baker's Delight</title>
+    <meta name="description" content="Have questions about our artisanal baked goods, custom orders, or wholesale opportunities? Contact Baker's Delight today.">
+    <meta name="keywords" content="bakery enquiries, custom cakes, wholesale bakery, catering, event orders">
+    <meta name="author" content="Baker's Delight">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="index.html" class="logo">Baker's Delight</a>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="enquiry.html">Enquiries</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <!-- Enquiry Content -->
+    <main>
+        <section class="enquiry-section">
+            <div class="container">
+                <h1>Product & Service Enquiries</h1>
+                <p>Interested in our products, custom orders, or wholesale opportunities? We'd love to hear from you!</p>
+                
+                <div class="enquiry-container">
+                    <div class="enquiry-options">
+                        <h2>What Can We Help You With?</h2>
+                        
+                        <div class="option-cards">
+                            <div class="option-card">
+                                <h3>Custom Cakes & Orders</h3>
+                                <p>Special occasions require special treats. Inquire about our custom cake design and large order capabilities.</p>
+                                <ul>
+                                    <li>Wedding cakes</li>
+                                    <li>Birthday specials</li>
+                                    <li>Corporate events</li>
+                                    <li>Bulk orders</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="option-card">
+                                <h3>Wholesale Partnerships</h3>
+                                <p>Are you a restaurant, cafe, or retailer interested in carrying our products?</p>
+                                <ul>
+                                    <li>Wholesale pricing</li>
+                                    <li>Regular deliveries</li>
+                                    <li>Custom products</li>
+                                    <li>Partnership opportunities</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="option-card">
+                                <h3>Event Catering</h3>
+                                <p>Make your event unforgettable with our artisanal baked goods and catering services.</p>
+                                <ul>
+                                    <li>Full catering menus</li>
+                                    <li>Event planning assistance</li>
+                                    <li>Delivery and setup</li>
+                                    <li>Custom creations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="enquiry-form">
+                        <h3>Send Us Your Enquiry</h3>
+                        
+                        <form id="enquiryForm">
+                            <div class="form-group">
+                                <label for="enquiryType">Enquiry Type *</label>
+                                <select id="enquiryType" name="enquiryType" required>
+                                    <option value="">Please select...</option>
+                                    <option value="custom-order">Custom Cake/Order</option>
+                                    <option value="wholesale">Wholesale Partnership</option>
+                                    <option value="catering">Event Catering</option>
+                                    <option value="product-info">Product Information</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required minlength="2">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9\s\-\(\)]+">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="eventDate">Event Date (if applicable)</label>
+                                <input type="date" id="eventDate" name="eventDate">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="guests">Number of Guests (if applicable)</label>
+                                <input type="number" id="guests" name="guests" min="1" max="1000">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Please select...</option>
+                                    <option value="under-500">Under R500</option>
+                                    <option value="500-1000">R500 - R1,000</option>
+                                    <option value="1000-2500">R1,000 - R2,500</option>
+                                    <option value="over-2500">Over R2,500</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Additional Details *</label>
+                                <textarea id="message" name="message" required minlength="10" placeholder="Please provide details about your enquiry..."></textarea>
+                            </div>
+                            
+                            <button type="submit">Submit Enquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Baker's Delight</h3>
+                    <p>Bringing joy to our community through handcrafted baked goods made with love and quality ingredients since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Pinterest">Pinterest</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="enquiry.html">Enquiries</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Multiple locations in Johannesburg</p>
+                    <p>(011) 123-BAKE</p>
+                    <p>info@bakersdelight.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Baker's Delight. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

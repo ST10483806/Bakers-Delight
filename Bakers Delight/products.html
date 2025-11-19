@@ -2,30 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Our Products - Baker's Delight</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Products - Baker's Delight | Artisan Breads & Pastries</title>
+<meta name="description" content="Explore Baker's Delight's product range: artisanal breads, gourmet cookies, French pastries, decadent doughnuts, and custom cakes. Fresh baked daily in Johannesburg.">
+<meta name="keywords" content="bakery products, artisanal bread, pastries, cookies, doughnuts, custom cakes, sourdough, baguette, croissants, baked goods">
+<meta name="author" content="Baker's Delight">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div>
-            <a href="index.html">Baker's Delight</a>
-            <nav>
-                <ul>
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="index.html" class="logo">Baker's Delight</a>
+            <nav class="main-nav">
+                <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="events.html">Events</a></li>
+                    <li><a href="enquiry.html">Enquiries</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
-
+    </div>
+</header>
     <!-- Products Content -->
     <section>
         <h2>Our Delicious Products</h2>
+        <!-- Add this search bar after the <h2> in products.html -->
+<div class="search-container">
+    <input type="text" id="productSearch" placeholder="Search products... (e.g., 'chocolate', 'bread', 'pastry')">
+</div>
         <p>At Baker's Delight, we take pride in crafting a wide variety of baked goods using traditional methods and the finest ingredients. From artisanal breads to decadent pastries, each item is made with love and care.</p>
         
         <!-- Breads Section -->
@@ -33,7 +42,7 @@
         <div>
             <div>
                 <div>
-                    <img src="images/Arepa.webp" alt="Arepa" width="300">
+                    <img src="images/Arepa.webp" alt="Arepa" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Arepa</h4>
@@ -47,7 +56,7 @@
             
             <div>
                 <div>
-                    <img src="images/Baguette.jpg" alt="Baguette" width="300">
+                    <img src="images/Baguette.jpg" alt="Baguette" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Baguette</h4>
@@ -61,7 +70,7 @@
             
             <div>
                 <div>
-                    <img src="images/Bagel.jpg" alt="Bagel" width="300">
+                    <img src="images/Bagel.jpg" alt="Bagel" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Bagel</h4>
@@ -75,7 +84,7 @@
             
             <div>
                 <div>
-                    <img src="images/Brioche.jpg" alt="Brioche" width="300">
+                    <img src="images/Brioche.jpg" alt="Brioche" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Brioche</h4>
@@ -93,7 +102,7 @@
         <div>
             <div>
                 <div>
-                    <img src="images/Chocolate Chip cookies.jfif" alt="Chocolate Chip Cookies" width="300">
+                    <img src="images/Chocolate Chip cookies.jfif" alt="Chocolate Chip Cookies" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Chocolate Chip Cookies</h4>
@@ -107,7 +116,7 @@
             
             <div>
                 <div>
-                    <img src="images/Shortbread.webp" alt="Shortbread Cookies" width="300">
+                    <img src="images/Shortbread.webp" alt="Shortbread Cookies" width="300" data-lightbox="products" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Shortbread Cookies</h4>
@@ -121,7 +130,7 @@
             
             <div>
                 <div>
-                    <img src="images/Macarons.webp" alt="Macarons" width="300">
+                    <img src="images/Macarons.webp" alt="Macarons" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Macarons</h4>
@@ -139,7 +148,7 @@
         <div>
             <div>
                 <div>
-                    <img src="images/Mochi.jfif" alt="Mochi" width="300">
+                    <img src="images/Mochi.jfif" alt="Mochi" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Mochi</h4>
@@ -153,7 +162,7 @@
             
             <div>
                 <div>
-                    <img src="images/Fruit tart.jfif" alt="Fruit Tart" width="300">
+                    <img src="images/Fruit tart.jfif" alt="Fruit Tart" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Fruit Tart</h4>
@@ -167,7 +176,7 @@
             
             <div>
                 <div>
-                    <img src="images/Cheese puffs.jfif" alt="Cheese Puffs" width="300">
+                    <img src="images/Cheese puffs.jfif" alt="Cheese Puffs" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Cheese Puffs (Gougères)</h4>
@@ -181,7 +190,7 @@
             
             <div>
                 <div>
-                    <img src="images/Cinnamon rolls.jfif" alt="Cinnamon Rolls" width="300">
+                    <img src="images/Cinnamon rolls.jfif" alt="Cinnamon Rolls" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Cinnamon Rolls</h4>
@@ -199,7 +208,7 @@
         <div>
             <div>
                 <div>
-                    <img src="https://images.unsplash.com/photo-1551106652-a5bcf4b29ab6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FrZSUyMGRvdWdobnV0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=80" alt="Cake Doughnuts" width="300">
+                    <img src="images/Cake doughnuts.jfif" alt="Cake Doughnuts" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Cake Doughnuts</h4>
@@ -213,7 +222,7 @@
             
             <div>
                 <div>
-                    <img src="images/Jelly Doughnuts.jfif" alt="Jelly Doughnuts" width="300">
+                    <img src="images/Jelly Doughnuts.jfif" alt="Jelly Doughnuts" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Jelly Doughnuts</h4>
@@ -227,7 +236,7 @@
             
             <div>
                 <div>
-                    <img src="images/Glazed Doughnuts.jfif" alt="Glazed Doughnuts" width="300">
+                    <img src="images/Glazed Doughnuts.jfif" alt="Glazed Doughnuts" width="300" data-lightbox="products">
                 </div>
                 <div>
                     <h4>Glazed Doughnuts</h4>
@@ -263,6 +272,7 @@
                         <li><a href="products.html">Products</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="events.html">Events</a></li>
+                         <li><a href="enquiry.html">Events</a></li>
                     </ul>
                 </div>
                 <div>

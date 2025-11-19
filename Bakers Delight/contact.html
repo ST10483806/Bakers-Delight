@@ -3,109 +3,249 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Contact Us - Baker's Delight</title>
+    <meta name="description" content="Get in touch with Baker's Delight. Visit our Johannesburg locations or send us a message. We're here to help with all your bakery needs.">
+    <meta name="keywords" content="bakery contact, Johannesburg bakeries, bakery locations, custom orders, catering enquiries">
+    <meta name="author" content="Baker's Delight">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div>
-            <a href="index.html">Baker's Delight</a>
-            <nav>
-                <ul>
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="index.html" class="logo">Baker's Delight</a>
+            <nav class="main-nav">
+                <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="events.html">Events</a></li>
+                    <li><a href="enquiry.html">Enquiries</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </div>
+</header>
 
     <!-- Contact Content -->
-    <section>
-        <h2>Contact Us</h2>
-        
-        <div>
-            <div>
-                <h3>Visit Our Bakeries</h3>
-                <p>We have multiple locations across Johannesburg. Come visit us for a fresh baked treat!</p>
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contact Baker's Delight</h1>
+                <p>We'd love to hear from you! Visit us at any of our locations or send us a message.</p>
                 
-                <div>
-                    <div>
-                        <h4>Sandton</h4>
-                        <p>123 Baker Street, Sandton</p>
-                        <p>Hours: 7am - 7pm Daily</p>
-                        <p>Phone: (011) 123-4567</p>
+                <!-- Embedded Map Section -->
+                <div class="map-section">
+                    <h2>Find Our Bakeries</h2>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14319.099663126885!2d28.04731636977538!3d-26.204533699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950ea1a0b5c8c9%3A0x5d73c6b87e16fb08!2sSandton%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Baker's Delight Locations in Johannesburg">
+                        </iframe>
                     </div>
-                    <div>
-                        <h4>Braamfontein</h4>
-                        <p>456 Flour Avenue, Braamfontein</p>
-                        <p>Hours: 7am - 6pm Daily</p>
-                        <p>Phone: (011) 234-5678</p>
+                    <p class="map-note">📍 We have multiple locations across Johannesburg for your convenience</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Visit Our Bakeries</h2>
+                        <p>We have multiple locations across Johannesburg. Come visit us for a fresh baked treat!</p>
+                        
+                        <div class="locations-grid">
+                            <div class="location-card">
+                                <h3>🍞 Sandton</h3>
+                                <p><strong>Address:</strong> 123 Baker Street, Sandton</p>
+                                <p><strong>Hours:</strong> 7am - 7pm Daily</p>
+                                <p><strong>Phone:</strong> (011) 123-4567</p>
+                                <p><strong>Email:</strong> sandton@bakersdelight.com</p>
+                                <div class="location-features">
+                                    <span class="feature-tag">🏪 Main Branch</span>
+                                    <span class="feature-tag">🅿️ Free Parking</span>
+                                    <span class="feature-tag">♿ Accessible</span>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <h3>🥐 Braamfontein</h3>
+                                <p><strong>Address:</strong> 456 Flour Avenue, Braamfontein</p>
+                                <p><strong>Hours:</strong> 7am - 6pm Daily</p>
+                                <p><strong>Phone:</strong> (011) 234-5678</p>
+                                <p><strong>Email:</strong> braamfontein@bakersdelight.com</p>
+                                <div class="location-features">
+                                    <span class="feature-tag">🎓 Near Universities</span>
+                                    <span class="feature-tag">☕ Coffee Bar</span>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <h3>🥖 Rosebank</h3>
+                                <p><strong>Address:</strong> 789 Pastry Road, Rosebank</p>
+                                <p><strong>Hours:</strong> 8am - 6pm Daily</p>
+                                <p><strong>Phone:</strong> (011) 345-6789</p>
+                                <p><strong>Email:</strong> rosebank@bakersdelight.com</p>
+                                <div class="location-features">
+                                    <span class="feature-tag">🛍️ Shopping District</span>
+                                    <span class="feature-tag">🏢 Business Area</span>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <h3>🍩 Krugersdorp</h3>
+                                <p><strong>Address:</strong> 101 Dough Circle, Krugersdorp</p>
+                                <p><strong>Hours:</strong> 7am - 5pm Daily</p>
+                                <p><strong>Phone:</strong> (011) 456-7890</p>
+                                <p><strong>Email:</strong> krugersdorp@bakersdelight.com</p>
+                                <div class="location-features">
+                                    <span class="feature-tag">🏡 Suburban</span>
+                                    <span class="feature-tag">👪 Family Friendly</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h4>Rosebank</h4>
-                        <p>789 Pastry Road, Rosebank</p>
-                        <p>Hours: 8am - 6pm Daily</p>
-                        <p>Phone: (011) 345-6789</p>
+                    
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" action="mailto:info@bakersdelight.com" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required minlength="2" placeholder="Enter your full name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9\s\-\(\)]+" placeholder="(011) 123-4567">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Please select a subject...</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="wholesale">Wholesale Account</option>
+                                    <option value="custom">Custom Order</option>
+                                    <option value="event">Event Catering</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="employment">Employment Inquiry</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="preferred-location">Preferred Location (Optional)</label>
+                                <select id="preferred-location" name="preferred-location">
+                                    <option value="">Any location</option>
+                                    <option value="sandton">Sandton</option>
+                                    <option value="braamfontein">Braamfontein</option>
+                                    <option value="rosebank">Rosebank</option>
+                                    <option value="krugersdorp">Krugersdorp</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" name="message" required minlength="10" 
+                                          placeholder="Please type your message here. For specific product enquiries, please use our dedicated enquiry form." 
+                                          rows="6"></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="newsletter">
+                                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                                    Subscribe to our newsletter for special offers and updates
+                                </label>
+                            </div>
+                            
+                            <button type="submit">Send Message</button>
+                        </form>
                     </div>
-                    <div>
-                        <h4>Krugersdorp</h4>
-                        <p>101 Dough Circle, Krugersdorp</p>
-                        <p>Hours: 7am - 5pm Daily</p>
-                        <p>Phone: (011) 456-7890</p>
+                </div>
+
+                <div class="contact-alternatives">
+                    <h3>Other Ways to Reach Us</h3>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h4>📞 Phone</h4>
+                            <p><strong>Main Line:</strong> (011) 123-BAKE</p>
+                            <p><strong>Custom Orders:</strong> (011) 123-CAKE</p>
+                            <p>Monday - Friday: 7am - 6pm</p>
+                        </div>
+                        <div class="contact-method">
+                            <h4>📧 Email</h4>
+                            <p><strong>General:</strong> info@bakersdelight.com</p>
+                            <p><strong>Orders:</strong> orders@bakersdelight.com</p>
+                            <p><strong>Events:</strong> events@bakersdelight.com</p>
+                        </div>
+                        <div class="contact-method">
+                            <h4>📍 Visit Us</h4>
+                            <p>Walk-ins welcome at all locations</p>
+                            <p>Free parking available</p>
+                            <p>Wheelchair accessible</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            <div>
-                <h3>Send Us a Message</h3>
-                <form id="contactForm">
-                    <div>
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" required>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Do you take custom orders?</h3>
+                        <p>Yes! We specialize in custom cakes and large orders. Please use our <a href="enquiry.html">enquiry form</a> for custom orders to get pricing and availability.</p>
                     </div>
-                    <div>
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" required>
+                    <div class="faq-item">
+                        <h3>What are your delivery options?</h3>
+                        <p>We offer delivery within Johannesburg for orders over R500. Delivery fees start at R50. Same-day delivery available for orders placed before 12pm.</p>
                     </div>
-                    <div>
-                        <label for="subject">Subject</label>
-                        <select id="subject">
-                            <option value="general">General Inquiry</option>
-                            <option value="wholesale">Wholesale Account</option>
-                            <option value="custom">Custom Order</option>
-                            <option value="event">Event Catering</option>
-                            <option value="feedback">Feedback</option>
-                        </select>
+                    <div class="faq-item">
+                        <h3>Do you have gluten-free options?</h3>
+                        <p>Yes! We offer a selection of gluten-free baked goods. Please check our products page or ask in-store for daily availability.</p>
                     </div>
-                    <div>
-                        <label for="message">Your Message</label>
-                        <textarea id="message" required></textarea>
+                    <div class="faq-item">
+                        <h3>Can I pre-order for events?</h3>
+                        <p>Absolutely! We recommend placing event orders at least 48 hours in advance. For large events, 1-2 weeks notice is preferred.</p>
                     </div>
-                    <button type="submit">Send Message</button>
-                </form>
+                    <div class="faq-item">
+                        <h3>Do you offer catering services?</h3>
+                        <p>Yes, we provide full catering services for events. Please use our enquiry form for catering requests and menu options.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What payment methods do you accept?</h3>
+                        <p>We accept cash, credit/debit cards, and SnapScan. For wholesale accounts, we offer 30-day payment terms.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
-        <div>
-            <div>
-                <div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
                     <h3>Baker's Delight</h3>
                     <p>Bringing joy to our community through handcrafted baked goods made with love and quality ingredients since 2015.</p>
-                    <div>
-                        <a href="#">Facebook</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Pinterest</a>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Pinterest">Pinterest</a>
                     </div>
                 </div>
-                <div>
+                <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -113,28 +253,23 @@
                         <li><a href="products.html">Products</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="events.html">Events</a></li>
+                        <li><a href="enquiry.html">Enquiries</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="footer-section">
                     <h3>Contact Info</h3>
                     <p>Multiple locations in Johannesburg</p>
                     <p>(011) 123-BAKE</p>
                     <p>info@bakersdelight.com</p>
+                    <p>Monday - Sunday: 7am - 7pm</p>
                 </div>
             </div>
-            <div>
+            <div class="footer-bottom">
                 <p>&copy; 2025 Baker's Delight. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script>
-        // Handle form submission
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! We will get back to you soon.');
-            this.reset();
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
